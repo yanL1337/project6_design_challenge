@@ -1,0 +1,315 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto;
+  color: #000;
+  font-size: 62.5%;
+}
+
+/* - Header BG Image */
+
+header {
+  display: flex;
+  position: relative;
+  background: url("../img/ilustracion1.png") no-repeat center;
+  background-size: contain;
+  height: 100vh;
+  color: #0b0c17;
+  background-position: right;
+}
+
+/* - Logo styling */
+
+header img {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+}
+
+/* - Header Text Styling etc */
+
+.upperHead {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.nameQuote {
+  margin-left: 50px;
+}
+
+.nameQuote h2 {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+.nameQuote p {
+  font-size: 1.2rem;
+}
+
+/* - moving Avatar */
+.avatar {
+  height: 700px;
+  width: 700px;
+  margin-left: 300px;
+  transition: 3s ease-in-out;
+  animation: moveUp 5s infinite;
+  position: sticky;
+}
+
+/* - Header content */
+
+.betterDesigner h1 {
+  font-size: 5.4rem;
+  margin-bottom: 20px;
+  width: 60%;
+}
+.betterDesigner p {
+  width: 60%;
+  color: #000;
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-bottom: 100px;
+}
+
+.betterDesigner a {
+  text-decoration: none;
+  color: #ff3571;
+  font-size: 1.4rem;
+}
+
+.betterDesigner {
+  position: absolute;
+  top: 400px;
+  left: 150px;
+}
+
+/* - images unter header */
+
+.images {
+  background: url("../img/images.jpg") no-repeat center;
+  background-size: contain;
+  height: 100vh;
+  margin-bottom: 200px;
+}
+
+/* - section about */
+
+.about {
+  margin: 0 150px 200px 150px;
+}
+
+.about article {
+  display: flex;
+}
+
+.about article h2 {
+  font-size: 3.8rem;
+  width: 700px;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.ideaImg {
+  height: 60px;
+  width: 60px;
+}
+
+.about article p {
+  width: 1800px;
+  height: 200px;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  margin-bottom: 100px;
+}
+
+.about h2:nth-child(2) {
+  margin-left: 70px;
+  width: 700px;
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-bottom: 200px;
+}
+
+/* - Grid in About */
+
+.littleGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.littleGridContent {
+  margin: 0 100px 100px 0;
+
+  display: flex;
+}
+
+.littleGridText {
+  padding: 5px 0;
+  width: 300px;
+  height: 100px;
+}
+
+.littleGridContent h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.littleGridContent p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.littleGridContent img {
+  width: 32px;
+  height: 32px;
+  margin-right: 25px;
+}
+
+/* - pre challenge heading */
+
+.preChallenge {
+  text-align: center;
+}
+
+.preChallenge h2 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.preChallenge p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  display: inline-block;
+  width: 400px;
+  margin-bottom: 150px;
+}
+
+/* - challenge styling etc */
+.challengeWrapper {
+  margin: 0 150px;
+}
+
+.challenge {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.reverseChallenge {
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+
+.challengeContent {
+  margin: 0 100px;
+}
+.challenge Img {
+  width: 400px;
+  height: 400px;
+}
+
+/* - challengContent styling */
+
+.challengeContent h2 {
+  font-size: 5.2rem;
+  color: #ddd;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.challengeContent p:first-of-type {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.challengeContent h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.challengeContent p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  width: 500px;
+}
+
+/* - preFooter */
+
+.preFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preFooter h2 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.preFooter p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+.preFooter input {
+  height: 40px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.preFooter a {
+  font-family: Arial;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 80px;
+  font-size: 2rem;
+  background-color: #ff3571;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  transition: background-color 0.5s ease-in-out;
+}
+
+.preFooter a:hover {
+  background-color: rgb(85, 99, 206);
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+/* - footer */
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 25px;
+  width: 25px;
+}
+
+@keyframes moveUp {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-70px);
+  }
+}
